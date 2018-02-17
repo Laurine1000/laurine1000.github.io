@@ -65,27 +65,28 @@ p {
 }
 
 #footer {
-	padding: 20px 0;
-	border-top: 3px solid white;
-  background-image: url("images/pexels-photo-96857.jpeg");
+  background-image: url("images/footerpic.jpeg");
   background-size: cover;
   height: 300px;
   text-align: center;
-  padding: 230px 0;
+  font-size: 50px;
+  padding: 170px 25px;
   margin-top: 100px;
+  font-family: Nanum Gothic;
 }
 
 #footer a {
-	color: #ff6666;
+	color: white;
+  size: 100px;
 }
 
 #footer p {
-	color: #ff6666;
+	color: white;
 }
 
 #footer li {
 	padding: 10px;
-  color: #ff6666;
+  color: white;
 }
 
 #header p {
@@ -155,4 +156,8 @@ p {
 .playlist {
   width: 300px;
 }
+}
+
+.fa {
+  font: normal normal normal 45px/1 FontAwesome;
 }
