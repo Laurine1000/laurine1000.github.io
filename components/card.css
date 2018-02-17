@@ -1,0 +1,28 @@
+/* card.css */
+.card {
+  position: relative;
+  height: 250px;
+  background-size: cover;
+}
+
+.card-icon {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.card-description {
+  position: absolute;
+  bottom: 18px;
+  left: 10px;
+}
+
+.card-description a:hover{
+  text-decoration: none;
+  color: pink;
+}

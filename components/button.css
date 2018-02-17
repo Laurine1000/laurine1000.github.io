@@ -1,0 +1,30 @@
+/* button.css */
+.btn-medium1 {
+  color: white;
+  border: 3px solid white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+/* pour les boutton type medium qui sont h2 */
+.btn-medium2 {
+	margin-left: 35%;
+	margin-right: 35%;
+	border: 3px solid black;
+	color: black;
+	padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.8;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 642px) {
+	.btn-medium2 {
+	margin-left: 25%;
+	margin-right: 25%;
+	}
+}
+

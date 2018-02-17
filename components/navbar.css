@@ -1,0 +1,228 @@
+/* navbar.css */
+.navbar-minimalist {
+  display: flex;
+  align-items: center;
+  font-family: Nanum Gothic;
+  height: 70px; 
+  box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+  justify-content: space-around;
+}
+.navbar-minimalist img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  left: 645px;
+}
+
+.navbar-item1 {
+	position: absolute;
+	left: 80px;
+	color: rgb(5,25,25); 
+	opacity: 0.7;
+}
+
+.navbar-item2 {
+	position: absolute;
+	left: 190px; 
+	color: rgb(5,25,25);
+	opacity: 0.7;
+}
+
+.navbar-item3 {
+	position: absolute;
+	left: 380px;
+	color: rgb(5,25,25);
+	opacity: 0.7; 
+}
+
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+
+@media screen and (max-width: 1350px) {
+	.navbar-minimalist img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  left: 600px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+}
+
+@media screen and (max-width: 1290px) {
+	.navbar-minimalist img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  left: 555px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+}
+
+@media screen and (max-width: 1190px) {
+	.navbar-minimalist img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  left: 511px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+}
+
+@media screen and (max-width: 1090px) {
+	.navbar-minimalist img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  left: 466px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+}
+
+@media screen and (max-width: 990px) {
+	.navbar-minimalist img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  left: 422px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+}
+
+@media screen and (max-width: 890px) {
+	.navbar-minimalist img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  left: 377px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+}
+
+@media screen and (max-width: 810px) {
+	.navbar-minimalist img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  left: 333px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+}
+
+@media screen and (max-width: 720px) {
+	.navbar-minimalist img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  left: 288px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+}
+
+@media screen and (max-width: 630px) {
+	.navbar-minimalist img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  left: 244px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+}
+
+@media screen and (max-width: 628px) {
+	.navbar-minimalist img {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  left: 20px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+}
+
+@media screen and (max-width: 470px) {
+	.navbar-minimalist img {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  left: 20px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+.navbar-item1 {
+	font-size: 15px;
+	position: absolute;
+	left: 85px;
+}
+.navbar-item2 {
+	font-size: 15px;
+	position: absolute;
+	left: 170px; 
+}
+.navbar-item3 {
+	font-size: 15px;
+	position: absolute;
+	left: 300px;
+}
+}
+
+
+
+
+

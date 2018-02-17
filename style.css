@@ -1,0 +1,158 @@
+/* components */
+@import url("components/avatar.css");
+@import url("components/card.css");
+@import url("components/list.css");
+@import url("components/button.css");
+@import url("components/navbar.css");
+
+/* style.css */
+body{
+  background-size: cover;
+  color: black;
+  font-size: 25px;
+  font-family: Allerta Stencil;
+  text-align: center;
+  font-weight: lighter;
+}
+
+h1 {
+  font-family: Nanum Gothic;
+  color: rgb(5,25,25);
+  font-weight: lighter;
+  font-size: 90px;
+}
+h2 {
+  font-family: Nanum Gothic;
+  color: rgb(5,25,25);
+  font-weight: lighter;
+  font-size: 60px;
+  padding-bottom: 15px;
+}
+
+h3, a {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+p {
+	color : white;
+	font-size: 20px;
+}
+
+.card {
+	margin-top: 40px;
+	margin-bottom: 40px;
+  background-size: contain;
+}
+
+#header {
+	padding: 230px 0;
+	background-image: url("images/pexels-photo-96857.jpeg");
+	background-size: cover;
+  height: 710px;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+#header h2 {
+  font-size: 30px;
+}
+
+#footer {
+	padding: 20px 0;
+	border-top: 3px solid white;
+  background-image: url("images/pexels-photo-96857.jpeg");
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  padding: 230px 0;
+  margin-top: 100px;
+}
+
+#footer a {
+	color: #ff6666;
+}
+
+#footer p {
+	color: #ff6666;
+}
+
+#footer li {
+	padding: 10px;
+  color: #ff6666;
+}
+
+#header p {
+	color: white;
+  font-family: Nanum Gothic;
+  padding-top: 30px;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+#header a {
+	color: white;
+}
+
+.row {
+	margin-top: 70px;
+	margin-bottom: 70px;
+  background-color: rgb(5,25,25);
+}
+
+.row-first {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  color: white;
+}
+
+.container h2 {
+  padding-bottom: -20px;
+}
+
+.container {
+  background: white;
+}
+
+.card-deezer {
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("images/hp-deezer-carre.png");
+  background-size: contain;
+}
+
+.card-youtube {
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("images/hp-youtube.png");
+  background-size: contain;
+}
+
+.card-soundcloud {
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("images/hp-soundcloud.png");
+  background-size: contain;
+}
+
+.card-spotify {
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("images/hp-spotify.png");
+  background-size: contain;
+}
+
+#header h1 {
+  color : #ff6666;
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 1139px) {
+.playlist {
+  width: 600px;
+}
+}
+
+@media screen and (max-width: 680px) {
+.playlist {
+  width: 300px;
+}
+}
