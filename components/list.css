@@ -31,3 +31,21 @@
   font-size: 15px;
   color: #CCCCCC;
 }
+
+@media screen and (max-width: 427px) {
+  .product-description p {
+    font-size: 15px;
+}
+  .product-description h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .product-description p {
+    font-size: 0px;
+}
+  .product-description h3 {
+    font-size: 18px;
+  }
+}
