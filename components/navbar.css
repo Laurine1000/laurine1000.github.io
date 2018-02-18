@@ -222,6 +222,35 @@
 }
 }
 
+@media screen and (max-width: 370px) {
+	.navbar-minimalist img {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  left: 20px;
+}
+.menu-item {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-top: 17px;
+}
+.navbar-item1 {
+	font-size: 12px;
+	position: absolute;
+	left: 70px;
+}
+.navbar-item2 {
+	font-size: 12px;
+	position: absolute;
+	left: 135px; 
+}
+.navbar-item3 {
+	font-size: 12px;
+	position: absolute;
+	left: 240px;
+}
+}
 
 
 
