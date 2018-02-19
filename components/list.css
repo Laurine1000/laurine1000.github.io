@@ -12,16 +12,24 @@
 .product:hover {
   background: rgb(240, 240, 240);
   font-size: 45px;
+  text-decoration: none;
 }
 
 .product:hover .product-upvote h3 {
   font-size: 55px;
+  text-decoration: none;
 }
 
 .product:hover h3 {
   font-size: 27px;
+  text-decoration: none;
+  color: black;
 }
 
+.product:hover a {
+  text-decoration: none;
+  color: white;
+}
 
 .product-upvote {
   font-size: 20px;

@@ -117,7 +117,7 @@ p {
 }
 
 .card-youtube {
-  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("images/hp-youtube.png");
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("images/hp-youtube.jpeg");
   background-size: contain;
 }
 
@@ -137,14 +137,14 @@ p {
 }
 
 .playlist {
-  width: 85%;
+  width: 79.2%;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 424px) {
 .playlist {
-  width: 80%;
+  width: 70%;
 }
 }
 
@@ -155,8 +155,8 @@ p {
 .row {
   margin-top: 70px;
   margin-bottom: 70px;
-  width: 85%;
-  margin-left: 7.5%;
+  width: 79.2%;
+  margin-left: 10.4%;
   background-color: rgb(5,25,25);
 }
 
@@ -168,3 +168,7 @@ p {
   h1 {
     font-size: 67px;
 }
+
+
+
+
