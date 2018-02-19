@@ -8,6 +8,32 @@
   opacity: 0.8;
 }
 
+.btn-medium1:hover {
+  color: #ff6666;
+  border: 3px solid #ff6666;
+  text-decoration: none;
+}
+
+.btn-medium3 {
+  color: #ffc0cb;
+  border: 3px solid #ffc0cb;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.btn-medium3:hover {
+  color: white;
+  border: 3px solid white;
+  text-decoration: none;
+}
+
+.card-description a:hover {
+  color: white;
+}
+
+
 /* pour les boutton type medium qui sont h2 */
 .btn-medium2 {
 	margin-left: 35%;

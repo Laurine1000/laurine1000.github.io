@@ -3,6 +3,8 @@
   position: relative;
   height: 250px;
   background-size: cover;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .card-icon {
@@ -25,4 +27,12 @@
 .card-description a:hover{
   text-decoration: none;
   color: pink;
+}
+
+@media screen and (max-width: 990px) {
+  .card-description {
+    position: absolute;
+    left: 75px;
+    right: 75px;
+  }
 }
